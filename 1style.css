@@ -1,0 +1,192 @@
+h2{
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  display: block;
+  margin-right: : 700px;
+  margin-right: auto;
+}
+
+#bl {
+  margin-right: 0px;
+}
+
+#header{
+  width: 400px;
+  height: 300px;
+  background-color: #E1DCD8;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 700px;
+  margin-right: 400px;
+  border: 2px solid grey;
+  border-color: grey;
+}
+
+#tel:before {
+  content: "\2706";
+  font-size: 50px;
+}
+
+#three:before {
+  content: "\2630";
+  font-size: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+{box-sizing: border-box;}
+form {
+  position: relative;
+  width: 150px;
+}
+
+input, button {
+  outline: none;
+  background: transparent;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 40px;
+  border: 3px solid black;
+}
+
+button {
+  border: none;
+  height: 42px;
+  width: 400px;
+  position: right;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+
+
+} */
+
+#block {
+  width: 400px;
+  height: 40px;
+  margin-left: 700px;
+  margin-right: 400px;
+  background-color: #A6E18D;
+  border: 1px solid grey;
+}
+
+#block1 {
+  width: 400px;
+  height: 280px;
+  margin-left: 700px;
+  margin-right: 400px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+#block2 {
+  width: 400px;
+  height: 350px;
+  margin-top: 1px;
+  margin-left: 700px;
+  background-color: #E1DCD8;
+  border: 2px solid grey;
+}
+
+#redbutton{
+background-color: red;
+border-radius: 40px;
+margin-right: 250px;
+color:white;
+}
+
+.button {
+   color: white;
+}
+
+#block3 {
+  width: 400px;
+  height:40px;
+  background-color: white;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px dotted red;
+    padding: 0;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hide:checked + label {
+    color: blue;
+    border-bottom: 0;
+}
+
+.hide:checked + label + div {
+    display: block;
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px;
+}
+
+.demo {
+    margin: 5% 10%;
+}
+
+.sale {
+  background-color: red;
+  height: 100px;
+  text-align: center;
+}
+
+.getsale {
+  border-width: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-color: white;
+}
+
+.container {   width: 100%;
+ border: 2px solid #ccc;
+ background-color: #eee;
+ border-radius: 5px;
+ padding: 1px;
+ margin: 5px auto;
+}
+
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
+
+footer h5 {
+  color:red;
+  text-align: center;
+}
